@@ -1,0 +1,6 @@
+loadNative("lib/webview.bzg", "webviewMgr");
+
+var wb = webviewMgr(1366,768,"BSL_Webview");
+
+wb.url("https://bonezegei.com");
+wb.run();
